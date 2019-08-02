@@ -34,7 +34,7 @@
     root: '/',
     scheme: 'Mist',
     version: '7.2.0',
-    sidebar: {"position":"right","display":"post","offset":12,"onmobile":true},
+    sidebar: {"position":"right","width":300,"display":"post","offset":12,"onmobile":true},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     copycode: {"enable":true,"show_result":false,"style":null},
     fancybox: false,
@@ -1085,151 +1085,6 @@ sidebar:  # Sidebar Position, available value: left | right (only for Pisces | G
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://blogs.happyffeng.com/2019/07/english/first-english/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Andy">
-      <meta itemprop="description" content="追逐最初的梦~~~~">
-      <meta itemprop="image" content="/images/mee.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Andy's Blog">
-    </span>
-      <header class="post-header">
-
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/07/english/first-english/" class="post-title-link" itemprop="url">english</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-07-28 04:46:03 / 修改时间：05:15:48" itemprop="dateCreated datePublished" datetime="2019-07-28T04:46:03Z">2019-07-28</time>
-            </span>
-          
-            
-
-            
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/分类一/" itemprop="url" rel="index"><span itemprop="name">分类一</span></a></span>
-
-                
-                
-                  ，
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/分类二/" itemprop="url" rel="index"><span itemprop="name">分类二</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            <span id="/2019/07/english/first-english/" class="post-meta-item leancloud_visitors" data-flag-title="english">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="post-meta-item-text">阅读次数：</span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
-            
-  
-  <span class="post-meta-item">
-    
-    <span class="post-meta-item-icon">
-      <i class="fa fa-comment-o"></i>
-    </span>
-    
-      <span class="post-meta-item-text">评论数：</span>
-    
-  
-    <a href="/2019/07/english/first-english/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2019/07/english/first-english/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-          <br/>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          
-            <p>
-              /**     * 异步Callable方式请求     * 适合简单的场景，多个线程进行通讯，就做不到了     * @return     * @throws Exception     */    @RequestMapping("/order2")    public Callable&lt;String&gt; order2() throws Exception &#123;        logger.info("主线程开始");		Callable&lt;String&gt; result = new Callable&lt;String&gt;() &#123;			@Override			public String call() throws Exception &#123;				logger.info("副线程开始");				Thread.sleep(5000);				logger.info("副线程返回");				return "success";			&#
-              ...
-            </p>
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/07/english/first-english/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-    
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://blogs.happyffeng.com/2019/07/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1382,7 +1237,7 @@ More info: Deployment
         
           <a href="/archives">
         
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1399,11 +1254,7 @@ More info: Deployment
         
           
         
-          
-        
-          
-        
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">分类</span>
         </a>
       </div>
@@ -1422,11 +1273,7 @@ More info: Deployment
         
           
         
-          
-        
-          
-        
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">标签</span>
         </a>
       </div>
